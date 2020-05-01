@@ -31,3 +31,8 @@ this will start the node server on the port 3000 or the selected port stated in 
 to use the application simply type in your email, intensity and duration of workout
 the application will store this data in the database and calulate calories burned.
 
+## Todos
+
+- Add landing page when user submits workout
+- Show estimated calories burned on submission
+
