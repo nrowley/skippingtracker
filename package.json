@@ -1,0 +1,21 @@
+{
+  "name": "skipping-tracker",
+  "version": "1.0.0",
+  "description": "Skipping-Tracker is a node.js application for tracking your skipping exercises. Built with express, mongoDB and node.js",
+  "main": "app.js",
+  "scripts": {
+    "run": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.5.7",
+    "mongoose": "^5.9.11",
+    "path": "^0.12.7"
+  }
+}
