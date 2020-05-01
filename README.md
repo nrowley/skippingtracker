@@ -4,13 +4,13 @@ Built with express, mongoDB and node.js
 
 It also has REST API can return a given users exercise data.
 
-#Installation
+## Installation
 install the package dependencies by running this in the program directory
 ```bash
 npm install
 ```
 
-#Usage
+## Usage
 The application has a REST API which can be called by using simply using your email
 
 ```bash
