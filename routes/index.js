@@ -3,6 +3,7 @@ const express = require('express');
 const router = express.Router();
 const Exercise = require('../models/Exercise');
 const connectDB = require('../config/db');
+const ejs = require('ejs');
 
 
 router.use(express.json());
@@ -31,16 +32,16 @@ router.post('/',(req,res)=>{
 
             newExercise.save();
 
-            res.status(200).end('Exercise has been logged succesfully');
+            res.render('overview',{data:{intensity,duration,calories}});
         }
         else{
             console.log('invalid email or intensity');
             res.redirect('/');
         }
     }
-    catch(err){
+    catch(error){
         console.log(error);
-        res.status(500).end(`Error : ${err}`);
+        res.status(500).end(`Error : ${error}`);
     }
     
      
