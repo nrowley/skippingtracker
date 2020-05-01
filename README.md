@@ -1,3 +1,5 @@
+https://travis-ci.com/nelzex/skippingtracker.svg?branch=master
+
 # Skipping-Tracker
 
 https://skippingtracker.herokuapp.com/
