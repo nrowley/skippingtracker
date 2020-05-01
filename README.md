@@ -16,6 +16,7 @@ The application has a REST API which can be called by using simply using your em
 ```bash
 curl http:localhost:3000/api/:email
 ```
+this will return workout details for a given email in a JSON file.
 
 to run the node server:
 ```bash
