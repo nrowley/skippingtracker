@@ -17,7 +17,7 @@ npm install
 The application has a REST API which can be called by using simply using your email
 
 ```bash
-curl http:localhost:3000/api/:email
+curl https://skippingtracker.herokuapp.com/api/:email
 ```
 this will return workout details for a given email in a JSON file.
 
