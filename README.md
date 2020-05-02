@@ -1,4 +1,6 @@
 # Skipping-Tracker
+	
+https://img.shields.io/github/issues/nelzex/skippingtracker
 
 https://skippingtracker.herokuapp.com/
 
