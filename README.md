@@ -1,6 +1,6 @@
 # Skipping-Tracker
 	
-https://img.shields.io/github/issues/nelzex/skippingtracker
+[![Generic badge](https://img.shields.io/github/issues/nelzex/skippingtracker)](https://shields.io/)
 
 https://skippingtracker.herokuapp.com/
 
